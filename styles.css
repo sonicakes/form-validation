@@ -5,3 +5,7 @@ body {
 .error-msg {
     color: #FF7A7A;
 }
+
+.success {
+    color: olive;
+}
