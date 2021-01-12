@@ -58,8 +58,7 @@ body {
 input {
   border-radius: 5px;
   border: 1px solid #b9b6d3;
-  width: 100%;
-  min-width: 400px;
+
   padding: 15px 10px;
   margin: 15px 0;
 }
@@ -80,6 +79,10 @@ input {
     box-shadow: 0 5px 5px rgba(62, 60, 73, 0.75);
 }
 
+.btn-top:hover {
+  cursor: pointer;
+}
+
 .col p,h1{
     color: #fff;
 }
@@ -89,8 +92,10 @@ input {
     line-height: 1.2;
 }
 
-.col {
+@media screen and (min-width: 991px) {
+  .col {
     width: 50%;
+  }
 }
 
 .submit-btn {
@@ -101,11 +106,16 @@ input {
     transition: all ease-out;
     border: none;
     font-weight: 800;
+    width: 100%;
 }
 
 .submit-btn:hover {
     cursor: pointer;
     background-color:#6055A5;
+}
+
+.submit-btn:active, .submit-btn:focus {
+ border: none;
 }
 
 ::placeholder {
@@ -114,8 +124,4 @@ input {
    color: hsl(249, 10%, 26%);
   }
 
-  .form-section 
-  {
-    display: flex;
-    justify-content: center;
-  }
+
