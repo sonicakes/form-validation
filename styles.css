@@ -7,5 +7,25 @@ body {
 }
 
 .success {
-    color: olive;
+    color: #007600;
+
+}
+
+.success-input {
+    border: 1px solid #007600;
+}
+.error {
+    border-color: #FF7A7A;
+}
+
+.error-input {
+    border: 1px solid #FF7A7A;
+}
+
+input {
+    padding: 5px;
+}
+
+.tick {
+    height: 20px;
 }
