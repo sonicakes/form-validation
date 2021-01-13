@@ -58,7 +58,8 @@ body {
 input {
   border-radius: 5px;
   border: 1px solid #b9b6d3;
-
+  width: 100%;
+  box-sizing: border-box;
   padding: 15px 10px;
   margin: 15px 0;
 }
